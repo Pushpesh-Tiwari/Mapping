@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"://http/hibernate-sourceforge/hibernate-mapping-dtd-3.0//EN">
+<hinernae-mapping  package="mapbeans"> 
+    <class name="Panno"  table = "pantab">
+    <id name="panNo"   column="panNo1" />
+    <property name="banacc" column="banacc1"/>
+    <many-to-one name="adhar" column="adhar1"
+    class="mapbeans.Adhar" unique="true"
+    />
+    </class>
+</hibernate-mapping>
+
+

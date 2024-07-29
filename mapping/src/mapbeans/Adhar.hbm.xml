@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"://http/hibernate-sourceforge/hibernate-mapping-dtd-3.0//EN">
+<hinernae-mapping  package="mapbeans"> 
+    <class name="Adhar"  table = "adhartab">
+    <id name="adharNo"   column="adharNo" />
+    <property name="name" column="name1"/>
+    <property name="gender" column="gender"/>
+    </class>
+</hibernate-mapping>  
